@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 const prompt = require("prompt-sync")();
 
 /* Enter Your LinkedIn Credentials from commandline */
-const email = prompt("Enter your email address: ");
-const password = prompt("Enter your password: ");
+const email = prompt("Enter your Linkedin email address: ");
+const password = prompt("Enter your LinkedIn password: ");
 
 const linkedinBot = async () => {
   const browser = await puppeteer.launch({
